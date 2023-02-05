@@ -6,7 +6,7 @@ go 1.19
 
 require (
 	github.com/newrelic/go-agent/v3 v3.20.3
-	github.com/tullo/otel-workshop v0.4.2
+	github.com/tullo/otel-workshop v0.5.0
 	go.opentelemetry.io/otel v1.12.0
 )
 
