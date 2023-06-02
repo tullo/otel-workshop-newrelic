@@ -5,7 +5,7 @@ go 1.19
 // replace github.com/tullo/otel-workshop/web/fib => /home/anda/code/otel/workshop/web/fib
 
 require (
-	github.com/newrelic/go-agent/v3 v3.21.1
+	github.com/newrelic/go-agent/v3 v3.22.1
 	github.com/tullo/otel-workshop v1.0.1
 	go.opentelemetry.io/otel v1.16.0
 )
