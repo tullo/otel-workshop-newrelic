@@ -17,6 +17,8 @@ github.com/newrelic/go-agent/v3 v3.23.0 h1:50lRZCxtfnBx31nOK/GXDxnhLSBC8ZanhP0g2
 github.com/newrelic/go-agent/v3 v3.23.0/go.mod h1:dG7Q7yLUrqOo7SYVJADVDN9+P8c/87xp9axldPxmdHM=
 github.com/newrelic/go-agent/v3 v3.23.1 h1:n4CK4EEod2A47T74wQFztavh9g3wHxxmlndj53ksbVg=
 github.com/newrelic/go-agent/v3 v3.23.1/go.mod h1:dG7Q7yLUrqOo7SYVJADVDN9+P8c/87xp9axldPxmdHM=
+github.com/newrelic/go-agent/v3 v3.24.0 h1:DPfbd+p0akRjv6UpWzWJl+pfOMSs+QkAeNRUp0fPLZI=
+github.com/newrelic/go-agent/v3 v3.24.0/go.mod h1:7GnP0o5ZwEsnC001iDSoZRJ63jS6AtoAOggpg5XVJh8=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/stretchr/testify v1.8.3 h1:RP3t2pwF7cMEbC1dqtB6poj3niw/9gnV4Cjg5oW5gtY=
 github.com/tullo/otel-workshop/web/fib v1.0.3 h1:OO6Fh8xkaT+vJXTpFVrfYwdftaOx0jPFJxoQoSRyw6c=
