@@ -11,11 +11,10 @@
         "github.com/newrelic/go-agent/v3"
       ],
       "automerge": true,
-      "constraints": {"go": "1.20"},
       "postUpdateOptions": ["gomodTidy"],
-      "constraints": {"go": "1.20"},
       "ignoreTests": true
     }
   ],
-  "automerge": true
+  "automerge": true,
+  "constraints": {"go": "1.20"}
 }
