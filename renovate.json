@@ -5,12 +5,17 @@
   ],
   "packageRules": [
     {
+      "matchManagers":["gomod"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
+      "matchPackageNames": [
+        "github.com/newrelic/go-agent/v3"
+      ],
+      "automerge": true,
+      "constraints": {"go": "1.20"},
+      "postUpdateOptions": ["gomodTidy"],
+      "constraints": {"go": "1.20"},
+      "ignoreTests": true
     }
   ],
-  "automerge": true,
-  "automergeType": "branch",
-  "automergeStrategy": "rebase",
-  "commitBodyTable": true  
+  "automerge": true
 }
