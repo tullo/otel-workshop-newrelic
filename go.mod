@@ -5,17 +5,21 @@ go 1.19
 // replace github.com/tullo/otel-workshop/web/fib => ../workshop/web/fib
 
 require (
-	github.com/newrelic/go-agent/v3 v3.25.0
+	github.com/newrelic/go-agent/v3 v3.25.1
 	github.com/tullo/otel-workshop/web/fib v1.0.3
 	go.opentelemetry.io/otel v1.18.0
 )
 
 require (
+	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
+	github.com/klauspost/compress v1.16.3 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasthttp v1.49.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.42.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.42.0 // indirect
 	go.opentelemetry.io/otel/metric v1.18.0 // indirect
