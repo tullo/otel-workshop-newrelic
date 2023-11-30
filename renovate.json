@@ -16,5 +16,5 @@
     }
   ],
   "automerge": true,
-  "constraints": {"go": "1.20"}
+  "constraints": {"go": "1.21"}
 }
