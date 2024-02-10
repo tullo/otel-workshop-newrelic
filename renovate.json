@@ -5,16 +5,15 @@
   ],
   "packageRules": [
     {
-      "matchManagers":["gomod"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "matchPackageNames": [
-        "github.com/newrelic/go-agent/v3"
-      ],
-      "automerge": true,
-      "postUpdateOptions": ["gomodTidy"],
-      "ignoreTests": true
+      "automerge": true
     }
   ],
   "automerge": true,
-  "constraints": {"go": "1.21"}
+  "autoApprove": true,
+  "dependencyDashboardApproval": false,
+  "patch": {"autoApprove": true, "automerge": true},
+  "postUpdateOptions": ["gomodTidy"],
+  "constraints": {"go": "1.21"},
+  "ignoreTests": true
 }
