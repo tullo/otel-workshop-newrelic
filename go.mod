@@ -7,7 +7,7 @@ go 1.21
 require (
 	github.com/newrelic/go-agent/v3 v3.32.0
 	github.com/tullo/otel-workshop/web/fib v1.0.4
-	go.opentelemetry.io/otel v1.25.0
+	go.opentelemetry.io/otel v1.26.0
 )
 
 require (
@@ -18,8 +18,8 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.46.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.46.1 // indirect
-	go.opentelemetry.io/otel/metric v1.25.0 // indirect
-	go.opentelemetry.io/otel/trace v1.25.0 // indirect
+	go.opentelemetry.io/otel/metric v1.26.0 // indirect
+	go.opentelemetry.io/otel/trace v1.26.0 // indirect
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
