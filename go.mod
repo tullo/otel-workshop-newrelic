@@ -1,6 +1,6 @@
 module github.com/tullo/otel-workshop-newrelic
 
-go 1.21
+go 1.22
 
 // replace github.com/tullo/otel-workshop/web/fib => ../workshop/web/fib
 
