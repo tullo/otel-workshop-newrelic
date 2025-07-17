@@ -7,7 +7,7 @@ toolchain go1.24.5
 // replace github.com/tullo/otel-workshop/web/fib => ../workshop/web/fib
 
 require (
-	github.com/newrelic/go-agent/v3 v3.39.0
+	github.com/newrelic/go-agent/v3 v3.40.0
 	github.com/tullo/otel-workshop/web/fib v1.0.4
 	go.opentelemetry.io/otel v1.37.0
 )
