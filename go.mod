@@ -9,7 +9,7 @@ toolchain go1.25.0
 require (
 	github.com/newrelic/go-agent/v3 v3.40.1
 	github.com/tullo/otel-workshop/web/fib v1.0.4
-	go.opentelemetry.io/otel v1.37.0
+	go.opentelemetry.io/otel v1.38.0
 )
 
 require (
