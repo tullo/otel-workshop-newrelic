@@ -1,6 +1,6 @@
 module github.com/tullo/otel-workshop-newrelic
 
-go 1.24.0
+go 1.25.0
 
 toolchain go1.26.1
 
@@ -9,7 +9,7 @@ toolchain go1.26.1
 require (
 	github.com/newrelic/go-agent/v3 v3.42.0
 	github.com/tullo/otel-workshop/web/fib v1.0.4
-	go.opentelemetry.io/otel v1.41.0
+	go.opentelemetry.io/otel v1.42.0
 )
 
 require (
@@ -21,8 +21,8 @@ require (
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.53.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
-	go.opentelemetry.io/otel/metric v1.41.0 // indirect
-	go.opentelemetry.io/otel/trace v1.41.0 // indirect
+	go.opentelemetry.io/otel/metric v1.42.0 // indirect
+	go.opentelemetry.io/otel/trace v1.42.0 // indirect
 	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
