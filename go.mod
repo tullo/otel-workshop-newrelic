@@ -2,7 +2,7 @@ module github.com/tullo/otel-workshop-newrelic
 
 go 1.25.0
 
-toolchain go1.26.3
+toolchain go1.26.4
 
 // replace github.com/tullo/otel-workshop/web/fib => ../workshop/web/fib
 
